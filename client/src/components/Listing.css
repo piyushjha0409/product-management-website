@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.parent{
+    width: 30%;
+    margin: 0px 2px;
+}
+
+.title{
+    text-align: center;
+}
+
+.card-body{
+    background-color: gold;
+    text-align: center;
+    color: aquamarine;
+    border-radius: 10px;
+}
+
+.card-image {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.edit-button{
+   float: right;
+   margin: 5px;
+}
+.delete-button{
+   float: left;
+   margin: 5px;
+}
